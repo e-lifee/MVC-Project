@@ -1,0 +1,77 @@
+﻿@model FE.Models.UpdateAdvisorViewModel
+
+<link rel="stylesheet" href="/css/style.css">
+
+<center><h1>Edit Advisor</h1></center>
+<center>
+    <form method="post" action="View" class="demo-form1"enctype="multipart/form-data">
+    <div class="input-wrap">
+        <label for="" class="f-title">Id</label>
+        <input type="text" class="input" asp-for="Id" readonly />
+
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Name</label>
+        <input type="text" class="input" asp-for="Name" />
+
+    </div>
+    <div class="input-wrap">
+        <label for="" class="f-title">Last Name</label>
+        <input type="text" class="input" asp-for="LastName" />
+
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Email Address</label>
+        <input type="email" class="input" asp-for="Email" />
+
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Age</label>
+        <input type="int" class="input" asp-for="Age" />
+
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Date of Birth</label>
+        <input type="date" class="input" asp-for="DateOfBirth" />
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Phone</label>
+        <input type="tel" class="input" asp-for="Phone" />
+
+    </div>
+        <div class="input-wrap">
+
+            <label for="" class="f-title">Experience</label>
+            <input type="int" class="input" asp-for="Experience" />
+
+        </div>
+
+        <div class="input-wrap">
+
+            <label for="" class="f-title">StyleType</label>
+            <input type="int" class="input" asp-for="StyleType" />
+
+        </div>
+        <div class="input-wrap">
+            <label for="" class="f-title">Image</label>
+            <input type="file" class="input" asp-for="Image" />
+        </div>
+
+    
+        
+
+    <button type="submit" id="sbmt"  asp-action="View">Update</button>
+
+    <button type="submit" id="sbmt1"
+            asp-action="Delete"
+            asp-controller="Advisor">
+        Delete
+    </button>
+</form>
+
+</center>

@@ -1,0 +1,83 @@
+﻿@model AddAdvisorViewModel
+@{
+}
+<link rel="stylesheet" href="/css/style.css">
+<body class="b4">
+
+
+<center><h1>Do you want to be an advisor?</h1></center>
+    <center>
+        <form method="post" action="Add" class="demo-form1" enctype="multipart/form-data">
+    <div class="input-wrap">
+        <label for="" class="f-title">Name</label>
+        <input type="text" class="input" asp-for="Name" />
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Last name</label>
+        <input type="text" class="input" asp-for="LastName" />
+
+    </div>
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Email Address</label>
+        <input type="email" class="input" asp-for="Email" />
+
+    </div>
+
+    
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Age</label>
+        <input type="number" class="input" asp-for="Age" />
+
+    </div>
+
+ 
+    
+    <div class="input-wrap">
+        <label for="" class="f-title">Date of Birth</label>
+        <input type="date" class="input" asp-for="DateOfBirth" />
+
+    </div>
+
+
+        
+
+
+    <div class="input-wrap">
+        <label for="" class="f-title">Phone</label>
+        <input type="tel" class="input" asp-for="Phone" />
+
+    </div>
+        <div class="input-wrap">
+
+            <label for="" class="f-title">Experience</label>
+            <input type="int" class="input" asp-for="Experience" />
+
+        </div>
+
+        <div class="input-wrap">
+
+            <label for="" class="f-title">StyleType</label>
+            <input type="int" class="input" asp-for="StyleType" />
+
+        </div>
+
+        <div class="input-wrap">
+
+             <label for="" class="f-title">Image</label>
+             <input type="file" class="input" asp-for="Image" />
+        </div>
+
+    <button id="sbmt" type="submit" >Submit</button>
+</form>
+
+</center>
+<img id="sa2" src="/css/f.gif" alt="">
+
+<img id="sa1" src="/css/canva1.png" alt="">
+<img id="sa3" src="/css/cc.png" alt="">
+
+</body>
+

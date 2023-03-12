@@ -1,0 +1,42 @@
+﻿@model IEnumerable<FE.Models.Domain.StyleAdvisor>
+
+<table>
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Salary</td>
+            <td>Date Of Birth</td>
+            <td>Department</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var advisor in Model)
+        {
+            <tr>
+                <td>@advisor.Id</td>
+                <td>@advisor.Name</td>
+                <td>@advisor.LastName</td>
+                <td>@advisor.Email</td>
+                <td>@advisor.Age</td>
+                <td>@advisor.DateOfBirth.ToString("dd-MM-yyyy")</td>
+                <td><a href="Advisor/View/@advisor.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+

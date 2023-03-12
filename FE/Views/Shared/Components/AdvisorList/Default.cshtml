@@ -1,0 +1,44 @@
+﻿@model IEnumerable<FE.Models.Domain.StyleAdvisor>
+
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+<h1 id="h13">CHOSEN ADVISORS</h1>
+<table id="advisor">
+    <thead>
+        <tr>
+            <td>Photo</td>
+            <td>Id</td>
+            <td>Name</td>
+            <td>LastName</td>
+            <td>Email</td>
+            <td>Age</td>
+            <td>Date Of Birth</td>
+            <td>Experience</td>
+            <td>Style Type</td>
+            <td>Phone</td>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var advisor in Model.Where(a => a.Experience > 2))
+        {
+            <tr>
+                <td><img src="data:image/png;base64,@Convert.ToBase64String(@advisor.Image)" style="width:100px;height:120px;" alt="Resim" /></td>
+                <td>@advisor.Id</td>
+                <td>@advisor.Name</td>
+                <td>@advisor.LastName</td>
+                <td>@advisor.Email</td>
+                <td>@advisor.Age</td>
+                <td>@advisor.DateOfBirth.ToString("dd-MM-yyyy")</td>
+                <td>@advisor.Experience</td>
+                <td>@advisor.StyleType</td>
+                <td>@advisor.Phone</td>
+
+            </tr>
+        }
+    </tbody>
+</table>

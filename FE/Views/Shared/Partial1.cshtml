@@ -1,0 +1,55 @@
+﻿<link rel="stylesheet" href="/css/style.css">
+
+
+
+
+<table id="advisor">
+    <thead>
+        <tr>
+            <td>Photo</td>
+            <td>Id</td>
+            <td>Name</td>
+            <td>LastName</td>
+            <td>Email</td>
+            <td>Age</td>     
+            <td>Date Of Birth</td>
+            <td>Experience</td>
+            <td>Style Type</td>
+            <td>Phone</td>
+            <td>Update</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var advisor in Model)
+        {
+                <tr>
+                <td><img src="data:image/png;base64,@Convert.ToBase64String(@advisor.Image)" style="width:100px;height:120px;" alt="Resim" /></td>
+                    <td>@advisor.Id</td>
+                    <td>@advisor.Name</td>
+                    <td>@advisor.LastName</td>
+                    <td>@advisor.Email</td>
+                    <td>@advisor.Age</td>  
+                    <td>@advisor.DateOfBirth.ToString("dd-MM-yyyy")</td>
+                    <td>@advisor.Experience</td>
+                    <td>@advisor.StyleType</td>
+                    <td>@advisor.Phone</td>
+                    <td><a href="Advisor/View/@advisor.Id">View</a></td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+
+@await Component.InvokeAsync("AdvisorList")
+
+
+
+
+
+
+
+
+
+
+

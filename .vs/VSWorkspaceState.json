@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FE",
+    "\\FE\\Migrations",
+    "\\FE\\Models",
+    "\\FE\\Models\\Domain",
+    "\\FE\\Views",
+    "\\FE\\Views\\Home",
+    "\\FE\\Views\\Shared",
+    "\\FE\\wwwroot",
+    "\\FE\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\FE\\wwwroot\\css\\style.css",
+  "PreviewInSolutionExplorer": false
+}

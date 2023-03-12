@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Default\**" />
+    <Compile Remove="Views\Shared\Components\NewAdvisors\**" />
+    <Content Remove="Views\Default\**" />
+    <Content Remove="Views\Shared\Components\NewAdvisors\**" />
+    <EmbeddedResource Remove="Views\Default\**" />
+    <EmbeddedResource Remove="Views\Shared\Components\NewAdvisors\**" />
+    <None Remove="Views\Default\**" />
+    <None Remove="Views\Shared\Components\NewAdvisors\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\DefaultController.cs" />
+    <Compile Remove="Models\Celebrities.cs" />
+    <Compile Remove="Models\New1StyleAdvisor.cs" />
+    <Compile Remove="Models\Outfits.cs" />
+    <Compile Remove="ViewComponents\NewAdvisors.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Index1.cshtml" />
+    <Content Remove="wwwroot\css\a.jpg" />
+    <Content Remove="wwwroot\css\indir %281%29.jpg" />
+    <Content Remove="wwwroot\css\indir.jpg" />
+    <Content Remove="wwwroot\css\Update.jpg" />
+    <Content Remove="wwwroot\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePackAnalyzer" Version="2.4.59">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.11" />
+  </ItemGroup>
+
+</Project>

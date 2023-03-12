@@ -1,0 +1,525 @@
+.b1 {
+    background-color: rgb(83, 226, 248);
+}
+
+.b2 {
+    background-color: rgb(114, 107, 247);
+}
+
+.b3 {
+    background-image: url('indirdim.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.b4 {
+    background-image: url('a.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+
+#h12 {
+    color: #c78087;
+    font-family: 'Brush Script MT';
+}
+
+#h13 {
+    color: #c78087;
+    font-family: 'Brush Script MT';
+}
+
+.ho{
+    font-family:'Brush Script MT';
+    margin-left:120px;
+    color:rebeccapurple;
+    font-size: 40px;
+}
+
+#tit {
+    font-size: 44px;
+    text-align: center;
+    margin: 30px;
+    background: -webkit-linear-gradient(45deg, white,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bs {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)), url('back.jpeg');
+}
+
+.h {
+    font-size: 30px;
+    background: -webkit-linear-gradient(45deg, white,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ps {
+    color: white;
+    font-family: Kantore;
+    font-size: 25px;
+    width:1600px;
+    margin-left:120px;
+}
+
+.i1 {
+    border-radius: 10px;
+    margin-left: 120px;
+    float: left;
+}
+
+.i2 {
+    border-radius: 10px;
+    margin-left: 212px;
+}
+
+.i3 {
+    border-radius: 10px;
+    margin-right: 120px;
+    float: right;
+}
+
+nav {
+    color: white;
+    height: 100px;
+    background-color: black;
+    position: page;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#writing {
+    font-size: 35px;
+    /* text-align: 10px 20px;*/
+    float: left;
+    margin: 30px;
+    background: -webkit-linear-gradient(45deg, white,purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btrfly {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    position: absolute;
+    left: 13%;
+}
+
+li {
+    float: right;
+    margin: 30px;
+    color: aliceblue;
+    display: inline;
+    background: -webkit-linear-gradient(45deg, white,rgb(0, 247, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#sa1 {
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    position: absolute;
+    left: 40px;
+    top: 195px;
+}
+
+#sa3 {
+    width: 300px;
+    height: 430px;
+    margin-left: 20px;
+    position: absolute;
+    left: 40px;
+    top: 645px;
+}
+
+#sa2 {
+    width: 300px;
+    height: 530px;
+    margin-right: 20px;
+    position: absolute;
+    right: 40px;
+    top: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.homePageUp {
+    height: 700px;
+    /*width: 1530px;*/
+    /*background-color: aquamarine;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+}
+
+#linepants {
+    height: 560px;
+    width: 400px;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+}
+
+#shoppingWoman {
+    height: 300px;
+    width: 560px;
+    position: absolute;
+    left: 720px;
+    top: 410px;
+}
+
+#hejab {
+    height: 600px;
+    width: 330px;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+
+#street {
+    height: 460px;
+    width: 350px;
+    position: absolute;
+    left: 495px;
+    top: 60px;
+}
+
+#korean {
+    height: 330px;
+    width: 350px;
+    position: absolute;
+    left: 950px;
+    top: 60px;
+}
+
+.btn {
+    height: 70px;
+    width: 600px;
+    margin-top: 800px;
+    position: absolute;
+    left: 30%;
+    border: 3px solid rgb(143, 16, 113);
+    border-radius: 30px;
+    background-color: rgb(143, 16, 113);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#how {
+    position: absolute;
+    margin-top: 1000px;
+    padding: 25px 35px;
+    width: 1000px;
+    height: 220px;
+    left: 20%;
+    background-image: linear-gradient(to bottom right, rgb(239, 12, 171), white);
+    border-radius: 20px 0px;
+}
+
+#p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+#linepants:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#shoppingWoman:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#hejab:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#street:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#korean:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.q1 {
+    height: 200px;
+    width: 400px;
+    background-color: aqua;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 0px 25px;
+    border-style: dashed;
+    position:absolute;
+    left:100px;
+}
+
+#cream {
+    height: 700px;
+    width: 460px;
+    position: absolute;
+    right: 140px;
+    top: 180px;
+}
+
+.q2 {
+    height: 370px;
+    width: 200px;
+    background-color: aqua;
+    padding: 40px;
+    padding-top: 100px;
+    border-radius: 0px 25px;
+    position: absolute;
+    left: 795px;
+    top: 160px;
+    border-style: dashed;
+}
+
+.q3 {
+    height: 330px;
+    width: 200px;
+    background-color: aqua;
+    padding: 40px;
+    padding-top: 100px;
+    border-radius: 0px 25px;
+    position: absolute;
+    left: 795px;
+    top: 720px;
+    bottom: 20px;
+    border-style: dashed;
+}
+
+.q4 {
+    height: 200px;
+    width: 380px;
+    background-color: aqua;
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 0px 25px;
+    position: absolute;
+    right: 140px;
+    top: 870px;
+    bottom: 20px;
+    border-style: dashed;
+}
+
+.us {
+    background-color: rgb(97, 60, 218);
+    color: aliceblue;
+    height: 80px;
+    width: 1460px;
+    margin: 30px;
+    padding-top: 30px;
+    text-align: center;
+    position: absolute;
+    left:150px;
+    bottom: 100px;
+    top: 1350px;
+}
+
+.nt {
+    height: 30px;
+    width: 1460px;
+    position: absolute;
+    top: 1540px;
+}
+
+.nt2 {
+    height: 30px;
+    width: 1460px;
+    position: absolute;
+    top: 1440px;
+}
+#monica {
+    height: 670px;
+    width: 500px;
+    position: absolute;
+    top: 520px;
+    left: 120px;
+}
+
+.demo-form1 {
+    padding: 20px 20px;
+    background-color: #e9e9f1;
+    border: 1px solid #bebed6;
+    width: 700px;
+    max-width: 100%;
+}
+
+
+
+    .demo-form1 textarea {
+        width: 100%;
+        height: 100px;
+    }
+
+    .demo-form1 .input-wrap {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .demo-form1 .input {
+        background-color: #fff;
+        border: 1px solid #bebed6;
+        width: 100%;
+        height: 48px;
+        padding: 10px 15px;
+        margin-left: -15px;
+    }
+
+    .demo-form1 input:not([type="radio"]) {
+        width: 100%;
+    }
+
+    .demo-form1 input:([type="select"]) {
+        width: 100%;
+    }
+
+    .demo-form1 label.f-title {
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+
+#sbmt {
+    width: 190px;
+    color: white;
+    border-color: transparent;
+    background-color: green;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+    border-radius: 30px;
+    position: page;
+}
+
+#sbmt1 {
+    width: 190px;
+    color: white;
+    border-color: transparent;
+    background-color: red;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+    border-radius: 30px;
+    position: page;
+}
+
+
+
+.demo-form1 input[type="submit"] {
+    color: green;
+    border-color: transparent;
+    background-color: green;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+    border-radius: 30px;
+}
+
+    .demo-form1 input[type="submit"]:hover {
+        background-color: #c00d3a;
+    }
+
+
+
+#advisor {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Book Antiqua';
+    font-weight: bold;
+    font-size: large;
+}
+
+    #advisor td, #advisor thead {
+        border: 5px solid #ddd;
+        padding: 8px;
+    }
+
+    #advisor tr:nth-child() {
+        background-color: transparent;
+    }
+
+    #advisor tr:hover {
+        background-color: oldlace;
+        color: midnightblue;
+    }
+
+    #advisor thead {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:darksalmon;
+        color: white;
+    }
+
+    #advisor a {
+        color: black;
+    }
+
+
+
+#advisor1 {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Book Antiqua';
+}
+
+    #advisor1 td, #advisor1 thead {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #advisor1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    #advisor1 tr:hover {
+        background-color: transparent;
+        color: midnightblue;
+    }
+
+    #advisor1 thead {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: cornflowerblue;
+        color: white;
+    }
+
+    #advisor1 a {
+        color: black;
+    }
+#ab1{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
